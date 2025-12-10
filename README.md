@@ -78,20 +78,10 @@ Como desarrollador Fullstack:
 
 ---
 
-## 📈 Estadísticas de GitHub
-<div align="center">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Andresjl389&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Andresjl389&layout=compact&theme=tokyonight)
-
-</div>
-
----
-
 ## 🌐 Conecta conmigo
 - ✉️ **Correo:** andresjl389@gmail.com  
 - 🔗 **Portafolio:** https://portfolio-andres-jaimes.web.app/  
-- 💼 **LinkedIn:** *(si lo tienes, lo agregamos)*  
+- 💼 **LinkedIn:** https://www.linkedin.com/in/andres-felipe-jaimes-lugo/
 
 ---
 
