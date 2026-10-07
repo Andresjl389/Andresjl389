@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img">
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#61DAFB"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<clipPath id="r"><rect width="900" height="240" rx="16"/></clipPath>
+<linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#111c27"/></linearGradient><filter id="bl"><feGaussianBlur stdDeviation="28"/></filter>
+</defs>
+<style>
+text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+.m{font-family:'SFMono-Regular',Consolas,'Liberation Mono','Courier New',monospace}
+@keyframes w1{to{transform:translateX(-900px)}}@keyframes w2{from{transform:translateX(-900px)}to{transform:translateX(0)}}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes cyc{0%{opacity:0}6%{opacity:1}28%{opacity:1}34%{opacity:0}100%{opacity:0}}
+@keyframes fl1{50%{transform:translate(40px,18px)}}
+@keyframes fl2{50%{transform:translate(-50px,-14px)}}
+.name{opacity:0;animation:in 1s .2s ease-out forwards}
+.lbl{opacity:0;animation:in .8s 0s ease-out forwards}
+.t{opacity:0}
+.t1{animation:cyc 9s infinite}.t2{animation:cyc 9s 3s infinite}.t3{animation:cyc 9s 6s infinite}
+.o1{animation:fl1 9s ease-in-out infinite}.o2{animation:fl2 11s ease-in-out infinite}
+
+</style>
+<g clip-path="url(#r)">
+<rect width="900" height="240" fill="#0d1117"/>
+
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#30363d"/></pattern>
+<rect width="900" height="240" fill="url(#bgg)"/>
+<rect width="900" height="240" fill="url(#dots)" opacity=".6"/>
+<circle class="orb o1" cx="130" cy="60" r="90" fill="#61DAFB" opacity=".13" filter="url(#bl)"/>
+<circle class="orb o2" cx="780" cy="120" r="110" fill="#a78bfa" opacity=".12" filter="url(#bl)"/>
+<text class="m lbl" x="450" y="62" text-anchor="middle" font-size="14" fill="#8b949e">&lt;fullstack_developer /&gt;</text>
+<text class="name" x="450" y="122" text-anchor="middle" font-size="58" font-weight="700" fill="#ffffff">Andres Jaimes</text>
+<text class="m t t1" x="450" y="162" text-anchor="middle" font-size="19" fill="#61DAFB">Construyendo soluciones que escalan</text>
+<text class="m t t2" x="450" y="162" text-anchor="middle" font-size="19" fill="#61DAFB">Python · React · TypeScript</text>
+<text class="m t t3" x="450" y="162" text-anchor="middle" font-size="19" fill="#61DAFB">Web &amp; Mobile · APIs · Cloud</text>
+<path d="M0,205.0 L10,206.3 L20,207.5 L30,208.7 L40,209.8 L50,210.8 L60,211.7 L70,212.5 L80,213.1 L90,213.6 L100,213.9 L110,214.0 L120,214.0 L130,213.7 L140,213.3 L150,212.8 L160,212.1 L170,211.3 L180,210.3 L190,209.2 L200,208.1 L210,206.9 L220,205.6 L230,204.4 L240,203.1 L250,201.9 L260,200.8 L270,199.7 L280,198.7 L290,197.9 L300,197.2 L310,196.7 L320,196.3 L330,196.0 L340,196.0 L350,196.1 L360,196.4 L370,196.9 L380,197.5 L390,198.3 L400,199.2 L410,200.2 L420,201.3 L430,202.5 L440,203.7 L450,205.0 L460,206.3 L470,207.5 L480,208.7 L490,209.8 L500,210.8 L510,211.7 L520,212.5 L530,213.1 L540,213.6 L550,213.9 L560,214.0 L570,214.0 L580,213.7 L590,213.3 L600,212.8 L610,212.1 L620,211.3 L630,210.3 L640,209.2 L650,208.1 L660,206.9 L670,205.6 L680,204.4 L690,203.1 L700,201.9 L710,200.8 L720,199.7 L730,198.7 L740,197.9 L750,197.2 L760,196.7 L770,196.3 L780,196.0 L790,196.0 L800,196.1 L810,196.4 L820,196.9 L830,197.5 L840,198.3 L850,199.2 L860,200.2 L870,201.3 L880,202.5 L890,203.7 L900,205.0 L910,206.3 L920,207.5 L930,208.7 L940,209.8 L950,210.8 L960,211.7 L970,212.5 L980,213.1 L990,213.6 L1000,213.9 L1010,214.0 L1020,214.0 L1030,213.7 L1040,213.3 L1050,212.8 L1060,212.1 L1070,211.3 L1080,210.3 L1090,209.2 L1100,208.1 L1110,206.9 L1120,205.6 L1130,204.4 L1140,203.1 L1150,201.9 L1160,200.8 L1170,199.7 L1180,198.7 L1190,197.9 L1200,197.2 L1210,196.7 L1220,196.3 L1230,196.0 L1240,196.0 L1250,196.1 L1260,196.4 L1270,196.9 L1280,197.5 L1290,198.3 L1300,199.2 L1310,200.2 L1320,201.3 L1330,202.5 L1340,203.7 L1350,205.0 L1360,206.3 L1370,207.5 L1380,208.7 L1390,209.8 L1400,210.8 L1410,211.7 L1420,212.5 L1430,213.1 L1440,213.6 L1450,213.9 L1460,214.0 L1470,214.0 L1480,213.7 L1490,213.3 L1500,212.8 L1510,212.1 L1520,211.3 L1530,210.3 L1540,209.2 L1550,208.1 L1560,206.9 L1570,205.6 L1580,204.4 L1590,203.1 L1600,201.9 L1610,200.8 L1620,199.7 L1630,198.7 L1640,197.9 L1650,197.2 L1660,196.7 L1670,196.3 L1680,196.0 L1690,196.0 L1700,196.1 L1710,196.4 L1720,196.9 L1730,197.5 L1740,198.3 L1750,199.2 L1760,200.2 L1770,201.3 L1780,202.5 L1790,203.7 L1800,205.0 L1800,400 L0,400 Z" fill="#61DAFB" fill-opacity="0.14" style="animation:w1 14s linear infinite"/>
+<path d="M0,215.0 L10,216.5 L20,217.8 L30,219.1 L40,220.2 L50,221.1 L60,221.7 L70,222.0 L80,222.0 L90,221.7 L100,221.1 L110,220.2 L120,219.1 L130,217.8 L140,216.5 L150,215.0 L160,213.5 L170,212.2 L180,210.9 L190,209.8 L200,208.9 L210,208.3 L220,208.0 L230,208.0 L240,208.3 L250,208.9 L260,209.8 L270,210.9 L280,212.2 L290,213.5 L300,215.0 L310,216.5 L320,217.8 L330,219.1 L340,220.2 L350,221.1 L360,221.7 L370,222.0 L380,222.0 L390,221.7 L400,221.1 L410,220.2 L420,219.1 L430,217.8 L440,216.5 L450,215.0 L460,213.5 L470,212.2 L480,210.9 L490,209.8 L500,208.9 L510,208.3 L520,208.0 L530,208.0 L540,208.3 L550,208.9 L560,209.8 L570,210.9 L580,212.2 L590,213.5 L600,215.0 L610,216.5 L620,217.8 L630,219.1 L640,220.2 L650,221.1 L660,221.7 L670,222.0 L680,222.0 L690,221.7 L700,221.1 L710,220.2 L720,219.1 L730,217.8 L740,216.5 L750,215.0 L760,213.5 L770,212.2 L780,210.9 L790,209.8 L800,208.9 L810,208.3 L820,208.0 L830,208.0 L840,208.3 L850,208.9 L860,209.8 L870,210.9 L880,212.2 L890,213.5 L900,215.0 L910,216.5 L920,217.8 L930,219.1 L940,220.2 L950,221.1 L960,221.7 L970,222.0 L980,222.0 L990,221.7 L1000,221.1 L1010,220.2 L1020,219.1 L1030,217.8 L1040,216.5 L1050,215.0 L1060,213.5 L1070,212.2 L1080,210.9 L1090,209.8 L1100,208.9 L1110,208.3 L1120,208.0 L1130,208.0 L1140,208.3 L1150,208.9 L1160,209.8 L1170,210.9 L1180,212.2 L1190,213.5 L1200,215.0 L1210,216.5 L1220,217.8 L1230,219.1 L1240,220.2 L1250,221.1 L1260,221.7 L1270,222.0 L1280,222.0 L1290,221.7 L1300,221.1 L1310,220.2 L1320,219.1 L1330,217.8 L1340,216.5 L1350,215.0 L1360,213.5 L1370,212.2 L1380,210.9 L1390,209.8 L1400,208.9 L1410,208.3 L1420,208.0 L1430,208.0 L1440,208.3 L1450,208.9 L1460,209.8 L1470,210.9 L1480,212.2 L1490,213.5 L1500,215.0 L1510,216.5 L1520,217.8 L1530,219.1 L1540,220.2 L1550,221.1 L1560,221.7 L1570,222.0 L1580,222.0 L1590,221.7 L1600,221.1 L1610,220.2 L1620,219.1 L1630,217.8 L1640,216.5 L1650,215.0 L1660,213.5 L1670,212.2 L1680,210.9 L1690,209.8 L1700,208.9 L1710,208.3 L1720,208.0 L1730,208.0 L1740,208.3 L1750,208.9 L1760,209.8 L1770,210.9 L1780,212.2 L1790,213.5 L1800,215.0 L1800,400 L0,400 Z" fill="#a78bfa" fill-opacity="0.12" style="animation:w2 20s linear infinite"/>
+<rect x="0" y="236" width="900" height="4" fill="url(#acc)"/>
+
+</g>
+<rect x=".5" y=".5" width="899" height="239" rx="16" fill="none" stroke="#30363d"/>
+</svg>
